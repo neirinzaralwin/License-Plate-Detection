@@ -24,7 +24,7 @@ I used <code>Faster R-CNN ResNet50 V1 640x640</code> from [Tensorflow Object Det
 ## Model Architecture
 <img src='https://camo.githubusercontent.com/0eed6f561e63f5a146c100a4ff96fe958827388b4015681e94f1dc9e0e28e95e/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4e79616e5377616e41756e672f5468652d537061726b732d466f756e646174696f6e2d496e746572736869702f6d61696e2f6173736574732f6661737465722d72636e6e2e706e67'></img>
 
-## Quick Setup
+## Quick Setup (Load My Model From Checkpoint, not include training steps)
 **Install Some APIs and required tool**
 
 ```python
