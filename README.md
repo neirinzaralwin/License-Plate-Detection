@@ -53,11 +53,11 @@ os.chdir('./models/research/')
 !python ./object_detection/builders/model_builder_tf2_test.py
 ```
 **Add files**
-1. **Add model_config.config, labelmap.pbtxt to /content/models/research/ file path.**
-2. **Create training folder at /content/models/research/**
-3. **Add [ckpt-8.data-00000-of-00001](https://drive.google.com/file/d/18oh-2p5XNy7zt9LIQ8-M6tR2wWRJvIPg/view?usp=sharing)(file size is big) and ckpt-8.index to training folder.**
-4. **Create Saved Model folder in inside training folder.**
-5. **Add saved_model.pb in Saved Model folder.**
+1. **Add `model_config.config`, `labelmap.pbtxt` to `/content/models/research/` file path.**
+2. **Create `training` folder at `/content/models/research/`**
+3. **Add [ckpt-8.data-00000-of-00001](https://drive.google.com/file/d/18oh-2p5XNy7zt9LIQ8-M6tR2wWRJvIPg/view?usp=sharing)(file size is big) and `ckpt-8.index` to `training` folder.**
+4. **Create `Saved Model` folder in inside `training` folder.**
+5. **Add `saved_model.pb` in `Saved Model` folder.**
 
 **Install packages**
 ```python
@@ -123,7 +123,7 @@ end_time = time.time()
 elapsed_time = end_time - start_time
 print('Done! Took {} seconds'.format(elapsed_time))
 ```
-**Test Image (you can add image named test.jpg to content/models/research/ to test)***
+**Test Image (you can add image named `test.jpg` to `content/models/research/` to test)***
 ```python
 import numpy as np
 from PIL import Image
